@@ -1,0 +1,104 @@
+.badge-notify
+{
+	background-color: red !important;
+}
+
+.header {
+	background-color:yellow;
+		color:yellow;
+		padding-left: 3em;
+		width: 200%;
+		height: 108px;
+		top: -1.2em;
+		left:0em;
+		padding-left:2em;
+		padding-bottom:-10em;
+		position: fixed;
+}
+
+.forms {
+	width: 83.5em;
+	height: 35em;
+	position: fixed;
+	top:7.3em;
+	left: 13em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+}
+
+h2 a
+{
+	font-family: Segoe UI;
+	position: fixed;
+	top: 1em;
+	left: 7em;
+	color:black;
+	font-size: 25px;
+	text-decoration: none; 
+}
+
+h3  a
+{
+	font-family: Segoe UI;
+	position: fixed;
+	top: 3em;
+	left: 9.8em;
+	color:black;
+	font-size: 18px;
+	text-decoration: none; 
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin-left: 4.5em;
+	padding-top: 1em; 
+}
+
+.content {
+
+}       
+
+
+
+.sidenav {
+	height: 120%; 
+	width: 13em;
+	position: fixed; 
+	z-index: 1em; 
+	top: 6.5em;
+	left: 0em;
+	background-color:yellow;
+	color:maroon;
+	overflow-x: hidden; 
+	padding-top: 30px;   
+
+}
+
+
+.sidenav a {
+	padding: 8px 8px 8px 25px;
+	text-decoration: none;
+	font-size: 10px
+	font-family: Segoe UI;
+	color:black;
+	display: block;
+	transition: 0.3s
+}
+
+.nav:hover {
+	color: maroon;
+	background-color:yellow;
+}
+
+
+.footer {
+	background: #fbfbfb;
+	background: maroon;
+	width: 150%;
+	height: 0em;
+	bottom: -1em;
+	left: -1em;
+	position: fixed;
+}

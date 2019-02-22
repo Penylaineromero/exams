@@ -1,0 +1,87 @@
+.badge-notify
+{
+	background-color: red !important;
+}
+
+.header {
+	background: #fbfbfb ;
+	width: 150%;
+	height: 4.5em;
+	top: 0em;
+	left: -1em;
+	position: fixed;
+}
+
+.forms {
+	width: 84.5em;
+	height: 40em;
+	position: fixed;
+	top:5em;
+	left: 13em;
+	overflow: auto;
+}
+
+h3 a
+{
+	font-family: Segoe UI;
+	position: fixed;
+	top: 1em;
+	left: 12em;
+	color:#858585;
+	font-size: 22px;
+	text-decoration: none; 
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin-left: 4.5em;
+	padding-top: 1em; 
+}
+
+.content {
+
+}       
+
+
+
+.sidenav {
+	height: 100%; 
+	width: 13em;
+	height: 100%; 
+	position: fixed; 
+	z-index: 1; 
+	top: 0em;
+	left: 0em;
+	background-color:; m
+	overflow-x: hidden; 
+	padding-top: 60px;   
+
+}
+
+
+.sidenav a {
+	padding: 8px 8px 8px 25px;
+	text-decoration: none;
+	font-size: 12px
+	font-family: Segoe UI;
+	color: #cccccc;
+	display: block;
+	transition: 0.3s
+}
+
+.nav:hover {
+	color: maroon;
+	background-color:yellow;
+}
+
+
+.footer {
+	background: #fbfbfb;
+	background: maroon;
+	width: 150%;
+	height: 0em;
+	bottom: -1em;
+	left: -1em;
+	position: fixed;
+}

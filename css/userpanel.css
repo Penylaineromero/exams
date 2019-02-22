@@ -1,0 +1,150 @@
+.header {
+	background: yellow ;
+	width: 101%;
+	height: 70px;
+	top: 0em;
+	left: -1em;
+	position: fixed;
+}
+
+h3 {
+	font-family: Segoe UI;
+	position: fixed;
+	top:0em;
+	left: 5em;
+	color:blue !important;
+	font-size: 26px;
+}
+
+h3 a {
+	color:blue !important;
+}
+h3 a:hover {
+	color:blue;
+	text-decoration: none;
+}
+
+.links {
+	float: right;
+	right: 9.5em; 
+	position: fixed;
+	font-size: 18px;
+	margin-top: -1px;
+}
+
+.about{
+	border: 1px solid #424f39;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: -80px;
+	margin-top: -10em;
+	width: 13em;
+	height: 3em;
+	text-align: center;
+	font-size: 12px;
+	font-family: Segoe UI;
+	color: aliceblue;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #617553; /*Temp*/
+	box-shadow: 1px, 1px, 5px rgba (0, 0, 0, 1),
+	0px, 0px, 3px rgba (0, 0, 0, 1);
+}
+
+.about:hover{
+	color: #2b3424;
+	background-color:yellow;
+	
+}
+
+.links ul li {
+	list-style: none;
+	float: left;
+	margin-left: 4.5em;
+	padding-top: 1em; 
+}
+
+.content {
+
+}
+
+.forms {
+	width: 87.4em;
+	height: 38.3em;
+	left: 10.1em;
+	top: 5em;
+	position: fixed;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: white;
+	opacity: 0.8;
+	-webkit-box-shadow: 1px 1px 7px 0px rgba(171,169,171,1);
+	-moz-box-shadow: 1px 1px 7px 0px rgba(171,169,171,1);
+	box-shadow: 1px 1px 7px 0px rgba(171,169,171,1);
+	overflow-y: auto;
+}
+
+.sidenav {
+	width: 10em;
+	height: 100%; 
+	position: fixed; 
+	z-index: 1; 
+	top: 4em;
+	left: 0em;
+	background-color: blue; 
+	
+	padding-top: 60px;  
+	
+
+}
+
+
+.sidenav a {
+	padding: 8px 8px 8px 24px;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: Segoe UI;
+	color: blue;
+	display: block;
+	transition: 0.3s
+}
+
+.nav:hover {
+	color: #2b3424;
+	background-color:yellow;
+	text-decoration: none;
+}
+
+
+
+.footer {
+	background:blue ;
+	width: 130%;
+	height: 50px;
+	bottom: -1em;
+	left: -1em;
+	position: fixed;
+}
+
+.credits {
+
+}
+
+h1 {
+	font-family: Segoe UI;
+	position: fixed;
+	top:62.3em;
+	left: 120em;
+	color:blue;
+	font-size: 10px;
+	opacity: 0.4;
+}
+
+.icons {
+	position: fixed;
+	top: 44em;
+	left: 10em;
+}
